@@ -11,6 +11,31 @@
     background: url(../images/hero.jpg) no-repeat center center;
 
     img {        
-        max-width: 50px;
+        display: none;
     }
+    
+}
+
+.main_nav {
+
+    ul {
+
+       list-style: none;
+
+        li {
+
+            display: inline-block;   
+            padding: 10px;  
+
+            a {
+                   
+                text-decoration: none;
+                color: #fff;
+                font-size: 16px;
+
+            }
+        }
+        
+    }
+
 }
